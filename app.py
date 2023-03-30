@@ -13,7 +13,7 @@ import io
 import magic
 from config import OPENAI_API_KEY, ElevenLabs_API_KEY
 
-MODEL_PROMPT = "You are a TOEFL Speaking examiner. Grade the student out of 30 points. Include feebacks. " #@param{type: "string"}
+MODEL_PROMPT = "input prompt here " #@param{type: "string"}
 config = {
     "api_key":OPENAI_API_KEY,
     "xi-api-key":ElevenLabs_API_KEY,
@@ -91,8 +91,8 @@ demo = gr.Interface(
         
 
         live = True,
-        title="托福口语考试",
-        description="利用AI技术，帮助你练习托福口语考试",
+        title="Input Title",
+        description="Input description",
         article="When clicking 'clear', your logs are saved and will be displayed in the next response",
         allow_flagging= "never"
         )
