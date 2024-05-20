@@ -31,8 +31,8 @@ ElevenLabs_API_KEY = 'your_elevenlabs_api_key'
 2. Open the Gradio interface in your browser and start speaking.
 
 ## Code Overview
-generate_voiceover(content): Generates a voiceover from the provided text content using ElevenLabs' API.
-transcribe(audio): Transcribes the provided audio file using OpenAI's Whisper model and generates a conversation transcript.
+-generate_voiceover(content): Generates a voiceover from the provided text content using ElevenLabs' API.
+-transcribe(audio): Transcribes the provided audio file using OpenAI's Whisper model and generates a conversation transcript.
 
 
 
